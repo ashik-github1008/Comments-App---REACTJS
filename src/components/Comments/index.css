@@ -1,0 +1,96 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 36px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+.cmnt-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.cmnt-form-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 120px;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 36px;
+  margin-bottom: 42px;
+}
+
+.cmnt-count-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.cmnt-img {
+  width: 340px;
+}
+
+.label {
+  color: #334155;
+  font-weight: 500;
+  margin-bottom: 18px;
+  font-size: 17px;
+}
+
+.name-input {
+  margin-bottom: 12px;
+  padding: 10px;
+  font-weight: 500;
+  border: 1px solid #94a3b8;
+  border-radius: 6px;
+  outline: none;
+}
+
+.add-cmnt-btn {
+  color: #ffffff;
+  background-color: #0284c7;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+.hr-line {
+  margin-top: 28px;
+  color: #dee0e3;
+  width: 100%;
+  border-width: 1px;
+}
+
+.cmnt-count {
+  background-color: #0284c7;
+  padding: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 5px;
+  margin-right: 8px;
+  color: #ffffff;
+}
+
+.comments-text {
+  align-self: center;
+  color: #475569;
+  font-weight: 500;
+}
+
+.cmnt-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
